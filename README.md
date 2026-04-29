@@ -44,7 +44,7 @@ Top feature importances (Random Forest): diabetes risk (0.2186), hypertension (0
 ## Project Structure
 
 ```
-runner-health-pyspark/
+runner-health/
 ├── runner_health.py                   # Main PySpark analysis pipeline
 ├── runner_health_research_report.html # Full research report with visualizations
 └── README.md
@@ -92,8 +92,8 @@ Variable relationships are encoded with realistic correlated structure plus Gaus
 
 ```bash
 # Clone the repo
-git clone https://github.com/<your-username>/runner-health-pyspark.git
-cd runner-health-pyspark
+git clone https://github.com/<your-username>/runner-health.git
+cd runner-health
 
 # Create virtual environment
 python3 -m venv venv
@@ -119,7 +119,7 @@ Output: scored dataset saved to `./runner_health_output/` in Parquet format.
 
 ### View the Report
 
-Open `runner_health_research_report.html` in any browser — no server required.
+Open `index.html` in any browser — no server required.
 
 ---
 
