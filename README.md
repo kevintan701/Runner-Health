@@ -2,7 +2,7 @@
 
 A large-scale distributed analysis of **5 million simulated adult health records** using Apache PySpark, examining how running habits, sleep, diet, and stress relate to chronic disease risk (obesity, hypertension, diabetes, CKD).
 
-**[View Research Report](./index.html)**
+**[View Research Report](https://kevintan701.github.io/Runner-Health/)**
 
 ---
 
