@@ -2,7 +2,7 @@
 
 A large-scale distributed analysis of **5 million simulated adult health records** using Apache PySpark, examining how running habits, sleep, diet, and stress relate to chronic disease risk (obesity, hypertension, diabetes, CKD).
 
-**[View Research Report](./runner_health_research_report.html)**
+**[View Research Report](./index.html)**
 
 ---
 
@@ -70,8 +70,8 @@ Section 7 — Output                 Parquet export
 
 Data are fully **simulated** using `numpy` with parameter distributions informed by:
 
-- [NHANES 2017–2020 Pre-Pandemic Data](https://www.cdc.gov/nchs/nhanes/) — body measures, activity, diet distributions
-- [Strava Global Activity Report 2023](https://www.strava.com/l/year-in-sport/) — amateur running behavior
+- [NHANES 2017–2020 Pre-Pandemic Data](https://wwwn.cdc.gov/nchs/nhanes/Search/DataPage.aspx?Component=Examination&Cycle=2017-2020) — body measures, activity, diet distributions
+- [Strava Global Activity Report 2023](https://stories.strava.com/articles/strava-year-in-sport-trend-report-insights-on-the-world-of-exercise) — amateur running behavior
 - Published epidemiological literature on lifestyle-CKD associations
 
 Variable relationships are encoded with realistic correlated structure plus Gaussian noise. Outcomes are derived from probabilistic logistic models. **Findings should not be interpreted as causal evidence from real populations.**
